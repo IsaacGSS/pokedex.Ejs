@@ -11,11 +11,5 @@ app.get('/', (req, res) => {
   res.render('pages/index')
 })
 
-let PORT = 3000;
-
-// app.listen(8080);
-app.listen(PORT, function(err){
-  if (err) console.log("Error in server setup")
-  console.log("Server listening on Port", PORT);
-})
+app.listen(8080);
 console.log('\n aah!, Servidor Rodando 🎉👏 \n')
